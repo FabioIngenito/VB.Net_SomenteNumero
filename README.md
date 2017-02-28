@@ -26,6 +26,6 @@ If Not Char.IsNumber(e.KeyChar) And Not Convert.ToInt32(e.KeyChar) = Keys.Back T
 
         'And C#
 
-        'if (!(e.KeyChar >= \\\'0\\\' && e.KeyChar <= \\\'9\\\') && e.KeyChar != 8) e.Handled = true;
+        'if (!(e.KeyChar >= '0' && e.KeyChar <= '9') && e.KeyChar != 8) e.Handled = true;
 
     End Sub
